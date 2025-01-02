@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "CamptonBook", sans-serif;
+}
+
+@font-face {
+  font-family: CamptonBook;
+  src: url(campton-cufonfonts/CamptonBook.otf);
+}
+
+.hero-section {
+  background-image: url("Images/praise-2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+#countdown {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sermon-player {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1000;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .hero {
+    background-image: url(Images/praise-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .one{
+    color: red;
+} */
+/* .two{
+    background-color: rgb(230, 222, 222);
+}
+.box{
+    background-image: url(Images/e29135e5155b7287c624408f2ce5825b.jpg);
+    background-size: cover;
+} */
